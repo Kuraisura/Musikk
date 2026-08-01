@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Soundwave / Equalizer bars (Stems icon) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M3,18 L3,6 L5,6 L5,18 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M7,13 L7,6 L9,6 L9,13 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11,18 L11,6 L13,6 L13,18 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,10 L15,6 L17,6 L17,10 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M19,14 L19,6 L21,6 L21,14 Z" />
+</vector>

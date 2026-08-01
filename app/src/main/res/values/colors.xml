@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Background -->
+    <color name="obsidian_black">#FF0C0E14</color>
+    <color name="dark_slate">#FF161922</color>
+    <color name="dark_slate_light">#FF1E2230</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_cyan">#FF00E5FF</color>
+    <color name="accent_cyan_dark">#FF00B8D4</color>
+    <color name="accent_violet">#FF8A2BE2</color>
+    <color name="accent_violet_dark">#FF6A1B9A</color>
+    <color name="accent_coral">#FFFF4757</color>
+    <color name="accent_coral_dark">#FFC62828</color>
+    <color name="accent_amber">#FFFFAB00</color>
+    <color name="accent_emerald">#FF00E676</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FFA0A5B5</color>
+    <color name="text_tertiary">#FF6B7080</color>
+
+    <!-- Glassmorphism / Card -->
+    <color name="glass_surface">#1AFFFFFF</color>
+    <color name="glass_border">#20FFFFFF</color>
+    <color name="card_background">#FF161922</color>
+
+    <!-- Standard -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

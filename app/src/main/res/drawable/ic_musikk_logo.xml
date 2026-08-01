@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Musikk "M" Soundwave Logo -->
+    <!-- Four bars forming an "M" shape with varying heights, cyan and violet -->
+    <path
+        android:fillColor="#FF00E5FF"
+        android:pathData="M8,48 L8,16 L14,16 L14,48 Z" />
+    <path
+        android:fillColor="#FF8A2BE2"
+        android:pathData="M20,48 L20,24 L26,24 L26,48 Z" />
+    <path
+        android:fillColor="#FF00E5FF"
+        android:pathData="M32,48 L32,12 L38,12 L38,48 Z" />
+    <path
+        android:fillColor="#FF8A2BE2"
+        android:pathData="M44,48 L44,24 L50,24 L50,48 Z" />
+    <path
+        android:fillColor="#FF00E5FF"
+        android:pathData="M56,48 L56,16 L62,16 L62,48 Z" />
+</vector>

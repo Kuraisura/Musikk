@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Musikk" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:colorBackground">@color/obsidian_black</item>
+        <item name="android:statusBarColor">@color/obsidian_black</item>
+        <item name="android:navigationBarColor">@color/obsidian_black</item>
+    </style>
+
+    <style name="Theme.Musikk" parent="Base.Theme.Musikk" />
+
+    <style name="Theme.Musikk.Splash" parent="Theme.Musikk">
+        <item name="android:windowBackground">@color/obsidian_black</item>
+    </style>
+
+</resources>

@@ -1,0 +1,35 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ─── User profiles — read/write own data only ───────────────────
+    match /users/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow create: if request.auth != null && request.auth.uid == userId;
+      allow update: if request.auth != null && request.auth.uid == userId
+        && request.resource.data.keys().hasOnly([
+          "uid", "email", "displayName", "photoUrl", "marketingConsent",
+          "freeCreditsMinutes", "totalCreditsMinutes", "subscriptionTier",
+          "processingEngine", "creditsResetDate", "createdAt", "lastLoginAt"
+        ]);
+
+      // ─── Repertoire — per-user song library ────────────────────────
+      match /repertoire/{songId} {
+        allow read, list: if request.auth != null && request.auth.uid == userId;
+        allow create: if request.auth != null && request.auth.uid == userId;
+        allow update: if request.auth != null && request.auth.uid == userId;
+        allow delete: if request.auth != null && request.auth.uid == userId;
+      }
+
+      // ─── Practice sessions ─────────────────────────────────────────
+      match /sessions/{sessionId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // ─── Global deny ─────────────────────────────────────────────────
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

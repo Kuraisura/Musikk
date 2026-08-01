@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Musikk</string>
+    <string name="app_tagline">AI STEM STUDIO</string>
+
+    <!-- Auth Screen -->
+    <string name="auth_headline_1">Unleash Your Music.</string>
+    <string name="auth_headline_isolate">Isolate.</string>
+    <string name="auth_headline_practice">Practice.</string>
+    <string name="auth_headline_master">Master.</string>
+    <string name="auth_description">Split any track into vocals, guitars, drums and bass — then loop, slow down and learn it note for note.</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="or_divider">OR</string>
+    <string name="email_hint">you@email.com</string>
+    <string name="password_hint">Password</string>
+    <string name="create_free_account">Create free account →</string>
+    <string name="sign_in">Sign In →</string>
+    <string name="marketing_checkbox">Send me news &amp; marketing from Musikk.</string>
+    <string name="legal_footer">By continuing, I Agree to the Terms of Service and Privacy Policy.</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="login_tab">Sign In</string>
+    <string name="signup_tab">Sign Up</string>
+
+    <!-- Notification Permission -->
+    <string name="notification_title">Allow Musikk to send you notifications?</string>
+    <string name="notification_body">Get alerted the moment your AI stem separation finishes and when practice reminders are due.</string>
+    <string name="allow">Allow</string>
+    <string name="dont_allow">Don\'t Allow</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_stems">Stems</string>
+    <string name="nav_practice">Practice</string>
+    <string name="nav_repertoire">Repertoire</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Stems Screen -->
+    <string name="upload_audio">Upload Audio</string>
+    <string name="supported_formats">MP3, WAV, FLAC, M4A, MP4, MOV, WMA</string>
+    <string name="max_file_size">Max 50 MB</string>
+    <string name="deep_filter_toggle">DeepFilterNet AI Noise Suppression</string>
+    <string name="vocal_track">Vocal</string>
+    <string name="vocal_subtitle">Lead voice</string>
+    <string name="guitar_track">Lead / Rhythm Guitar</string>
+    <string name="guitar_subtitle">Electric</string>
+    <string name="drums_track">Drums</string>
+    <string name="drums_subtitle">Full kit</string>
+    <string name="bass_track">Bass</string>
+    <string name="bass_subtitle">Sub + low mid</string>
+    <string name="ambient_track">Ambient &amp; Wind Noise</string>
+    <string name="ambient_subtitle">DeepFilterNet AI</string>
+    <string name="solo">SOLO</string>
+    <string name="mute">MUTE</string>
+    <string name="ai_separated_badge">AI Separated with BS-RoFormer</string>
+
+    <!-- Transport Controls -->
+    <string name="speed_label">Speed</string>
+    <string name="pitch_label">Pitch</string>
+    <string name="loop_ab">Loop A-B</string>
+    <string name="key_label">Key</string>
+
+    <!-- Practice Screen -->
+    <string name="practice_toolkit">Practice Toolkit</string>
+    <string name="session_timer">Session</string>
+    <string name="ab_loop">A / B Loop</string>
+    <string name="bars_isolated">bars isolated</string>
+    <string name="looping">Looping</string>
+    <string name="metronome">Metronome</string>
+    <string name="tap_tempo">TAP TEMPO</string>
+    <string name="bpm">BPM</string>
+    <string name="live_chord_reader">Live Chord Reader</string>
+    <string name="synced_to_timeline">Synced to timeline</string>
+    <string name="key_transposer">Key Transposer</string>
+    <string name="semitones">semitones</string>
+    <string name="speed_controller">Speed Controller</string>
+    <string name="speed_description">Slowed down with original pitch preserved</string>
+    <string name="speed_unit">x</string>
+
+    <!-- Repertoire Screen -->
+    <string name="repertoire">Repertoire</string>
+    <string name="upload_song">Upload Song</string>
+    <string name="search_songs">Search songs or artists</string>
+    <string name="filter_all">All Songs</string>
+    <string name="filter_practice">Practice List</string>
+    <string name="filter_favorites">Favorites</string>
+    <string name="filter_recent">Recent</string>
+    <string name="stems_ready">stems ready</string>
+    <string name="separating">Separating</string>
+    <string name="songs_count">songs</string>
+    <string name="load_into_stems">Load into Stems</string>
+    <string name="open_in_practice">Open in Practice</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="remove_from_favorites">Remove from Favorites</string>
+    <string name="delete_song">Delete Song</string>
+
+    <!-- Profile Screen -->
+    <string name="profile">Profile</string>
+    <string name="free_tier_member">Free Tier Member</string>
+    <string name="pro_member">Pro Member</string>
+    <string name="remaining_ai_time">Remaining AI Processing Time</string>
+    <string name="mins_left">mins left</string>
+    <string name="of_text">of</string>
+    <string name="credits_reset">Free monthly credits reset on</string>
+    <string name="upgrade_pro">Upgrade to Musikk Pro</string>
+    <string name="unlimited_splits">Unlimited AI Splits &amp; HD Export</string>
+    <string name="see_pro_plans">See Pro plans</string>
+    <string name="monthly_pass">Monthly Pass</string>
+    <string name="monthly_price">$4.99/mo</string>
+    <string name="monthly_desc">Cancel anytime · 300 AI mins</string>
+    <string name="pro_annual">Pro Musician</string>
+    <string name="pro_price">$49.99/yr</string>
+    <string name="pro_desc">Best value · Unlimited splits</string>
+    <string name="choose">Choose</string>
+    <string name="audio_processing_quality">Audio Processing Quality</string>
+    <string name="standard_demucs">Standard</string>
+    <string name="ultra_bs_roformer">Ultra BS-RoFormer</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_profile_desc">Name, avatar, instruments</string>
+    <string name="firebase_account">Firebase Account &amp; Storage</string>
+    <string name="firebase_account_desc">Sync, cache, cloud storage</string>
+    <string name="privacy_terms">Privacy &amp; Terms</string>
+    <string name="privacy_terms_desc">Policies and data controls</string>
+    <string name="log_out">Log Out</string>
+
+    <!-- Progress / Status -->
+    <string name="uploading_to_r2">Uploading to Cloudflare R2…</string>
+    <string name="running_ai">Running BS-RoFormer AI…</string>
+    <string name="extracting_stem">Extracting %1$s Stem…</string>
+    <string name="processing_complete">Processing Complete</string>
+    <string name="error_file_too_large">File exceeds 50 MB limit</string>
+    <string name="error_invalid_format">Unsupported audio format</string>
+    <string name="error_no_credits">No credits remaining. Upgrade to Pro for unlimited splits.</string>
+    <string name="error_network">Network error. Please try again.</string>
+
+    <!-- Validation -->
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_password_short">Password must be at least 8 characters</string>
+</resources>

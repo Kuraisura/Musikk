@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Mixer faders (Practice icon) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M3,13 L3,15 L7,15 L7,13 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M9,10 L9,18 L11,18 L11,10 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13,8 L13,18 L15,18 L15,8 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M17,10 L17,18 L19,18 L19,10 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M21,3 L21,11 L23,11 L23,3 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M2,3 L2,5 L7,5 L7,3 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8,3 L8,5 L13,5 L13,3 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,3 L14,5 L19,5 L19,3 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,3 L20,5 L24,5 L24,3 Z" />
+</vector>
